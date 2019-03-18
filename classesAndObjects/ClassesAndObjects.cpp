@@ -18,15 +18,10 @@ int main()
     string name = p1.getName();
 
     cout << name << endl;
-    // int i = p1.arbitrarynumber;
 
-    Status s = Pending;
-    s = Approved;
-
-    FileError fe = FileError::notFound;
-    fe = FileError::ok;
-    NetworkError ne = NetworkError::disconnected;
-    ne = NetworkError::ok;
+    cout << "p1: " << p1.getName() << " " << p1.getNumber() << endl;
+    p1.setNumber(124);
+    cout << "p1: " << p1.getName() << " " << p1.getNumber() << endl;
 
     return 0;
 }

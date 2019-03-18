@@ -11,15 +11,15 @@ Person::Person(string first, string last, int arbitrary)
 }
 Person::Person(): arbitrarynumber(0)
 {
-    cout << "constructing" << firstName << " " << lastName << endl;
+    cout << "constructing" << getName() << endl;
 }
 
 Person::~Person()
 {
-    cout << "destructing" << firstName << " " << lastName << endl;
+    cout << "destructing" << getName() << endl;
 }
 
-string Person::getName()
+string Person::getName() const
 {
     return firstName + " " + lastName;
 }
