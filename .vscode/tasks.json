@@ -10,14 +10,15 @@
             "args": [
                 // "-o", "executable",
                 "classesAndObjects/Person.cpp",
-                "classesAndObjects/Tweeter.cpp",
-                "classesAndObjects/classesAndObjects.cpp",
+                // "classesAndObjects/Tweeter.cpp",
+                // "classesAndObjects/classesAndObjects.cpp",
                 // "FlowOfControl/if.cpp",
                 // "FlowOfControl/while.cpp",
                 // "FlowOfControl/for.cpp",
                 // "FlowOfControl/switch.cpp",
                 // "Functions/Utility.cpp",
                 // "Functions/freeFunctions.cpp",
+                "Templates/max.cpp",
                 "-std=c++17",
                 "-g"
                 // "-g", "classesAndObjects/classesAndObjects.cpp",
