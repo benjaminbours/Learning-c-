@@ -22,13 +22,13 @@ int main()
     // logical error
     // integers += "testing";$
 
-    Person start("", "", 0);
-    Accum<Person> people(start);
+    // Person start("", "", 0);
+    Accum<Person> people(0);
     Person p1("Kate", "Gregory", 123);
     Person p2("Someone", "Else", 456);
     people += p1;
     people += p2;
-    cout << people.GetTotal().getNumber() << endl;
+    cout << people.GetTotal() << endl;
 
     return 0;
 }
