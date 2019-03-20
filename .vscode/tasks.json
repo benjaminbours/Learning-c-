@@ -18,7 +18,8 @@
                 // "FlowOfControl/switch.cpp",
                 // "Functions/Utility.cpp",
                 // "Functions/freeFunctions.cpp",
-                "Templates/max.cpp",
+                // "Templates/max.cpp",
+                "Templates/Accumulator.cpp",
                 "-std=c++17",
                 "-g"
                 // "-g", "classesAndObjects/classesAndObjects.cpp",
